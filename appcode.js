@@ -39,6 +39,17 @@ document.getElementById("confirmButton").addEventListener("click", function() {
     alert("Please enter a valid 6-digit Application Code.");
   }
 });
+//adding confirm button re-direct url
+document.getElementById("confirmButton").addEventListener("click", function() {
+    const appCodeInput = document.getElementById("appCodeInput").value;
+
+    if (appCodeInput.length === 6) {
+      // Redirect to form.html
+      window.location.href = "form.html";
+    } else {
+      alert("Please enter a valid 6-digit Application Code.");
+    }
+  });
 
 document.getElementById("cancelButton").addEventListener("click", function() {
   // Close the popup without submitting the form
