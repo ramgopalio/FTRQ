@@ -67,11 +67,6 @@
       </div>
     </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="dob">Date of Birth</label>-->
-<!--      <input type="date" id="dob" required>-->
-<!--    </div>-->
-
       <div class="field">
         <label class="label">Date of Birth</label>
         <div class="control">
@@ -85,27 +80,34 @@
         </div>
       </div>
 
-<!--    <div class="form-group">-->
-<!--      <input type="checkbox" id="agePolicyDeviation">-->
-<!--      <label for="agePolicyDeviation">Age Policy Deviation</label>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="lable">Age Policy Deviation</label>
+      <input type="checkbox" name="Age Policy Deviation" value="yes" required/>
+    </div>
 
-<!--    <div class="field">-->
-<!--      <label class="pan">PAN</label>-->
-<!--      <input-->
-<!--              class="input"-->
-<!--              type="text"-->
-<!--              placeholder="PAN"-->
-<!--              name="PAN"-->
-<!--      />-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">PAN</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="PAN"
+              name="PAN"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <input type="checkbox" id="cardTypeDeviation">-->
-<!--      <label for="cardTypeDeviation">Card Type Deviation</label>-->
-<!--      <input type="checkbox" id="form60">-->
-<!--      <label for="form60">Form 60</label>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="lable">Card Type Deviation</label>
+      <input type="checkbox" name="Card Type Deviation" value="yes" required/>
+    </div>
+
+    <div class="field">
+      <label class="lable">Form 60</label>
+      <input type="checkbox" name="Form 60" value="yes" required/>
+    </div>
+
+
+
 
 <!--    <div class="form-group">-->
 <!--      <label for="vvipCategory">Select VVIP Category</label>-->
@@ -116,10 +118,18 @@
 <!--      </select>-->
 <!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="fatherName">Father's Name</label>-->
-<!--      <input type="text" id="fatherName" required>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Father Name</label>
+      <div class="control">
+        <input
+                class="input"
+                type="text"
+                placeholder="Father Name"
+                name="Father Name"
+                required
+        />
+      </div>
+    </div>
 
 <!--     New fields-->
 <!--    <div class="form-group">-->
@@ -130,50 +140,103 @@
 <!--      </select>-->
 <!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="locality">Locality/Society</label>-->
-<!--      <input type="text" id="locality" required>-->
-<!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="addressLine2">Address Line 2</label>-->
-<!--      <input type="text" id="addressLine2">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Locality/Society</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Locality/Society"
+              name="Locality"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="pincode">Pincode</label>-->
-<!--      <input type="number" id="pincode" required>-->
-<!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <input type="checkbox" id="oclPolicyDeviation">-->
-<!--      <label for="oclPolicyDeviation">OCL Policy Deviation</label>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Address Line 2</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Address Line 2"
+              name="Address Line 2"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="residenceCity">Residence City</label>-->
-<!--      <input type="text" id="residenceCity">-->
-<!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="stdCode">STD Code</label>-->
-<!--      <input type="text" id="stdCode">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">PIN Code</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="PIN Code"
+              name="PIN Code"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="residencePhone">Residence Phone</label>-->
-<!--      <input type="text" id="residencePhone">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="lable">OCL Policy Deviation</label>
+      <input type="checkbox" name="OCL Policy Deviation" value="yes" required/>
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="email">Email</label>-->
-<!--      <input type="email" id="email" required>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Residence City</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Residence City"
+              name="Residence City"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="ckycId">CKYC ID</label>-->
-<!--      <input type="text" id="ckycId">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">STD Code</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="STD Code"
+              name="STD Code"
+              required
+      />
+    </div>
+
+    <div class="field">
+      <label class="label">Residence Phone</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Residence Phone"
+              name="Residence Phone"
+              required
+      />
+    </div>
+
+
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control">
+        <input
+                class="input"
+                type="email"
+                placeholder="Email"
+                name="Email"
+        />
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">CKYC ID</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="CKYC ID"
+              name="CKYC ID"
+              required
+      />
+    </div>
 
 <!--    <div class="form-group">-->
 <!--      <label for="employmentStatus">Employment Status</label>-->
@@ -184,31 +247,56 @@
 <!--      </select>-->
 <!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="employer">Employer</label>-->
-<!--      <input type="text" id="employer" required>-->
-<!--    </div>-->
 
-<!--    <div class="form-group">-->
-<!--      <label for="designation">Designation</label>-->
-<!--      <input type="text" id="designation" required>-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Employer</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Employer"
+              name="Employer"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="gstNumber">GST Number</label>-->
-<!--      <input type="text" id="gstNumber">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">Designation</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="Designation"
+              name="Designation"
+              required
+      />
+    </div>
 
-<!--    <div class="form-group">-->
-<!--      <label for="officeEmail">Office Email</label>-->
-<!--      <input type="email" id="officeEmail">-->
-<!--    </div>-->
+    <div class="field">
+      <label class="label">GST Number</label>
+      <input
+              class="input"
+              type="text"
+              placeholder="GST Number"
+              name="GST Number"
+              required
+      />
+    </div>
+
+    <div class="field">
+      <label class="label">Office Email</label>
+      <div class="control">
+        <input
+                class="input"
+                type="email"
+                placeholder="Office Email"
+                name="Office Email"
+        />
+      </div>
+    </div>
 
 <!--    <div class="form-buttons">-->
 <!--      <input type="submit" value="Submit">-->
 <!--      <input type="reset" value="Cancel">-->
 <!--    </div>-->
-
 
   <div class="field">
     <label class="label">Additional Information</label>
