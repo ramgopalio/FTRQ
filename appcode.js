@@ -30,7 +30,7 @@ document.getElementById("confirmButton").addEventListener("click", function() {
   const appCodeInput = document.getElementById("appCodeInput").value;
 
   if (appCodeInput.length === 6) {
-    alert("Form submitted successfully with OTP: " + appCodeInput);
+    alert("Form submitted successfully with App Code: " + appCodeInput);
     // Here, you can add code to process the form data as needed.
 
     // Close the popup
@@ -39,17 +39,18 @@ document.getElementById("confirmButton").addEventListener("click", function() {
     alert("Please enter a valid 6-digit Application Code.");
   }
 });
-//adding confirm button re-direct url
-document.getElementById("confirmButton").addEventListener("click", function() {
-    const appCodeInput = document.getElementById("appCodeInput").value;
 
-    if (appCodeInput.length === 6) {
-      // Redirect to form.html
-      window.location.href = "form.html";
-    } else {
-      alert("Please enter a valid 6-digit Application Code.");
-    }
-  });
+//adding confirm button re-direct url
+//document.getElementById("confirmButton").addEventListener("click", function() {
+//    const appCodeInput = document.getElementById("appCodeInput").value;
+//
+//    if (appCodeInput.length === 6) {
+//      // Redirect to form.html
+//      window.location.href = "form.html";
+//    } else {
+//      alert("Please enter a valid 6-digit Application Code.");
+//    }
+//  });
 
 document.getElementById("cancelButton").addEventListener("click", function() {
   // Close the popup without submitting the form

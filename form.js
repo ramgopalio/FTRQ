@@ -43,16 +43,22 @@
           document.getElementById("submit-button").disabled = false;
           document.getElementById("form").reset();
 
+          // Redirect to appcode.html
           setTimeout(function () {
             document.getElementById("message").textContent = "";
             document.getElementById("message").style.display = "none";
+            window.location.href = "appcode.html";
           }, 2600);
         })
+
         .catch(function (error) {
           // Handle errors, you can display an error message here
           console.error(error);
           document.getElementById("message").textContent =
             "An error occurred while submitting the form.";
           document.getElementById("message").style.display = "block";
+          document.getElementById("message").style.backgroundColor = "red";
+          document.getElementById("message").style.color = "white";
+          document.getElementById("submit-button").disabled = false;
         });
     });
